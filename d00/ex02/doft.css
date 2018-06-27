@@ -152,8 +152,8 @@ body {
   position: relative;
   box-shadow: 10px 10px 10px ;
   height: 9vmax;
-  width: 30%;
-  margin-left: 10%;
+  width: 28%;
+  margin-left: 8%;
   margin-top: 28.5%;
   background-color: rgb(148, 247, 118);
 }
@@ -200,10 +200,11 @@ word2 {
 }
 #search {
   position: relative;
-  width: 22em;
+  width: 30em;
   height: 1em;
 }
-button {
+#button {
+  background-color: #DCDCDC;
   position: relative;
   resize: horizontal;
 
