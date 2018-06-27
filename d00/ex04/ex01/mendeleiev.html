@@ -19,8 +19,8 @@
 
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(19, minmax(40px, auto));
-      grid-template-rows: repeat(12, minmax(40px, auto));
+      grid-template-columns: repeat(19, minmax(40px, 1fr));
+      grid-template-rows: repeat(12, minmax(40px, 1fr));
 
       background-color: grey;
       padding: 10px;
@@ -30,29 +30,29 @@
       background-color: rgba(255, 255, 255, 0.8);    /*light grey */
       border: 1px solid grey;
       padding: 2px;
-      font-size: 1.2vw;
+      font-size: 100%;
       text-align: center;
     }
 
     .grid-grid {
       background-color: white;
       padding: 20px;
-      font-size: 1.2vw;
+      font-size: 10px;
       text-align: left;
     }
 
     .grid-col {
       background-color: rgb(153, 204, 255);    /*light blue */
       grid-template-rows padding: 20px;
-      padding-top: 5%;
-      font-size: 2vw;
+      padding-top: 30px;
+      font-size: 18px;
       text-align: center;
     }
 
     .grid-row {
       background-color: rgb(51, 204, 204);    /*green */
-      padding: 1em;
-      font-size: 2vw;
+      padding: 20px;
+      font-size: 30px;
       text-align: center;
     }
 
